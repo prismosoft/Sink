@@ -1,7 +1,19 @@
+name = "sink"
 upload_source_maps = true
+pages_build_output_dir="dist"
 
 [dev]
 port = 3000
 
 [ai]
 binding = "AI"
+
+[[kv_namespaces]]
+binding = "KV"
+id = "94ab16482a2146649043a337a1c87a20"
+preview_id = "94ab16482a2146649043a337a1c87a20"
+
+[[analytics_engine_datasets]]
+binding = "ANALYTICS"
+dataset = "sink"
+

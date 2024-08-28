@@ -55,8 +55,9 @@
     "simple-git-hooks": "^2.11.1",
     "tailwind-merge": "^2.5.2",
     "tailwindcss-animate": "^1.0.7",
+    "typescript": "^5.5.4",
     "vue-tsc": "^2.0.29",
-    "wrangler": "^3.72.0"
+    "wrangler": "^3.72.3"
   },
   "simple-git-hooks": {
     "pre-commit": "npm run lint-staged"
